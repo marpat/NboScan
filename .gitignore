@@ -1,0 +1,22 @@
+# NetBeans specific #
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*.psd
+*.tif
+nboscan_settings.xml
+/icon20scan.png
+/scan.png
