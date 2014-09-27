@@ -1087,7 +1087,8 @@ public class NboScan extends javax.swing.JFrame {
         if (PlotProfile.isSelected()) {
             if (values.get(0) > values.get(1)) {
                 Collections.sort(values); // if x-axis had decreasing order, it would not plot properly
-                Collections.sort(ascf1, Collections.reverseOrder());
+                //Collections.sort(ascf1, Collections.reverseOrder());
+                Collections.reverse(ascf1);
             }
             ChartPanelScan cps = new ChartPanelScan(axisDesc, values, ascf1, maxmindif);
         }
