@@ -1,7 +1,7 @@
 # NetBeans specific #
 nbbuild/
-dist/
 nbdist/
+test/
 nbactions.xml
 nb-configuration.xml
 
@@ -9,7 +9,6 @@ nb-configuration.xml
 *.class
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
