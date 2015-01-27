@@ -194,7 +194,7 @@ public class NboScan extends javax.swing.JFrame {
         jTextPane1 = new javax.swing.JTextPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("NBOScan 1.01");
+        setTitle("NBOScan 1.03");
         setIconImage(Toolkit.getDefaultToolkit().getImage(NboScan.class.getResource("/img/resources/icon20scan.png")));
         setMaximumSize(new java.awt.Dimension(480, 565));
         setPreferredSize(new java.awt.Dimension(485, 600));
